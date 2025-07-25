@@ -15,7 +15,6 @@ nest_asyncio.apply()
 # --- Configuration and Environment Variables ---
 # --- DIRECTORY FOR PDF FILES ---
 PDF_DIRECTORY = "CP_Toolkit/" # <--- CHANGE THIS TO YOUR PDF DIRECTORY PATH
-os.environ["GOOGLE_API_KEY"] = "YOUR_GOOGLE_API_KEY" # Set your Google API Key here or in your environment variables
 
 if "GOOGLE_API_KEY" not in os.environ:
     st.error("GOOGLE_API_KEY environment variable not set. Please set it before running the app.")
